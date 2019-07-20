@@ -1,0 +1,19 @@
+{
+  "name": "express-bears",
+  "version": "1.0.0",
+  "description": "express bears build restful API scotch io example project https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewevans0102/express-bears.git"
+  },
+  "author": "Andrew Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewevans0102/express-bears/issues"
+  },
+  "homepage": "https://github.com/andrewevans0102/express-bears#readme"
+}

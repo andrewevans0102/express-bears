@@ -4,7 +4,10 @@
   "description": "express bears build restful API scotch io example project https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-mongo": "brew tap mongodb/brew; brew install mongodb-community@4.0",
+    "local-mongo": "brew services start mongodb-community@4.0",
+    "mongo-shell": "mongo",
+    "start-server": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/andrewevans0102/express-bears/issues"
   },
-  "homepage": "https://github.com/andrewevans0102/express-bears#readme"
+  "homepage": "https://github.com/andrewevans0102/express-bears#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.5"
+  }
 }
